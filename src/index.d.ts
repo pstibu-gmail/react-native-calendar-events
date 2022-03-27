@@ -55,6 +55,8 @@ interface Attendee {
   email: string;
   /** iOS ONLY - The The phone number of the attendee. */
   phone?: string;
+  /** Android ONLY - The Status of the attendee. */
+  status?: string;
 }
 
 interface Calendar {

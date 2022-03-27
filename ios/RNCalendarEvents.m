@@ -612,6 +612,7 @@ RCT_EXPORT_MODULE()
                 else {
                     [formattedAttendee setValue:@"" forKey:@"name"];
                 }
+                [formattedAttendee setValue:@"" forKey:@"status"];
                 [attendees addObject:formattedAttendee];
             }
             [formedCalendarEvent setValue:attendees forKey:_attendees];
